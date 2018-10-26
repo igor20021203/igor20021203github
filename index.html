@@ -1,54 +1,68 @@
-<!DOCTYPE html lang="ru">
+<!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
-    <title>About yourself</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="keywords" content="test, site, website" />
+	<meta name="description" content="Этот сайт является пробным сайтом" /> 
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<title>Тестовый сайт</title>
 </head>
 <body>
-    <div id="header">
-        <h1>Алексей Примадонин</h1>
-        <h3>Веб-разработчик</h3>
-        <p>
-            <a href="mailto:ap@somemail.com">ap@somemail.com</a>,
-            <a href="https://github.com/alprima">github.com/alprima</a>
-        </p>
-    </div>
-    
-    <div id="main">
-        <p class="left">Я увлекаюсь веб-дизайном со старших классов школы. Начал с мини-сайтов для себя и друзей, потом для местных фирм и организаций. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS(ES6), люблю функциональное программирование. Умею работать с SQL, HTTP, Git и Ansible. Пишу тесты.
-        <p class="left">Готов к удаленной работе и релокации.</p></p>
-        <h2 class="left">Опыт работы</h1>
-        <h3 class="left">Майкрософт Россия</h3>
-        <p>Программист (стажировка), <span class="important">апрель 2016 - ноябрь 2016</span></p>
-        <ul>
-            <li>Работа в команде на C#</li>
-            <li>Создание веб-сайта проекта JDX</li>
-        </ul>
-        <h3 class="left">ТОО "Винная Баня"</h3>
-        <p>Веб-дизайн, <span class ="important">январь 2015 - aпрель 2016</span></p>
-        <ul>
-            <li>Верстка макетов</li>
-            <li>разработка тем для Wordpress</li>
-            <li>Поддержка сайта</li>
-        </ul>
-    
-    <h2 class="left">Образование</h1>
-    <h3 class="left">Университет им. Патриса Лумумбы</h3>
-    <p>Бакалавр информационных систем, <span class="important">2012 - 2016</span></p>
-    <h3 class="left">Хекслет</h3>
-    <p>Курсы по программированию, <span class="important">JS Backend/Frontend, 2015 - 2017</span></p>
-
-    <h2 class="left">Другие навыки и увлечения</h1>
-    <ul class="left">
-        <li>Основы дизайна и типографики</li>
-        <li>Любительская игра на гитаре</li>
-        <li>Хоккей на траве (городская лига)</li>
-    </ul><br /><br /><br />
-    </div>
-
-    <div id="footer">
-    <p class="center">Алексей Примадонин</p>
-    <p class="center">ул. Полевая, 12, Астрахань, Россия +7 888 127 00 01, <a href="www.google.ru">ap@somemail.com</a></p>
-    </div>
+<div id="page-wrap">
+<header>
+<a href="index.html" title="На главную" id="logo">Test-Site</a>
+<span class="contact"><a href="about.html" title="Информация о нас">О нас</a></span>
+<input type="text" class="field" placeholder="Давай помогу найти..."/>
+<span class="right"><span class="reg"><a href="reg.html" title="Регистрация">Зарегистрироваться</a></span><span class="login"><a href="login.html" title="Вход">Войти</a></span></span>
+</header>
+<div class="clear"></div>
+<center>
+	<div id="menu">Разделы<hr /></div>
+	<div id="menuHrefs">
+		<a href="about.html">О нас</a>
+		<a href="feedback.html">Обратная связь</a>
+		<a href="login.html">Вход</a>
+		<a href="reg.html">Регистрация</a>
+	</div>
+</center>
+<div id="wrapper">
+	<div id="articles">
+		<article>
+			<img src="img/picture1.jpg" alt="Изображение" title="Изображение"/>
+			<h2>Котик</h2>
+			<p>Северные морские котики большую часть времени ведут пелагический образ жизни, широко мигрируют от традиционных мест размножения.Бла бла бла бла бла бла.</p>
+			<a href="/article" title="Смотреть статью">Читать дальше...</a>
+		</article>
+		<article>
+			<img src="img/picture2.jpg" alt="Изображение" title="Изображение"/>
+			<h2>Миньончик</h2>
+			<p>Огромное значение для этих тюленей имеет мех, с подшёрстком (в отличие от сивучей, у которых мех более редкий, и у которых основную термоизоляционную функцию берёт на себя жир).</p>
+			<a href="/article" title="Смотреть статью">Читать дальше...</a>
+		</article>
+		<article>
+			<img src="img/picture3.jpg" alt="Изображение" title="Изображение"/>
+			<h2>Ой, ещё котик</h2>
+			<p>Новорождённые имеют однотонный тёмный окрас, довольно редко рождаются альбиносы и хромисты, но эти случаи довольно редки, и на сто тысяч новорождённых приходится один.</p>
+			<a href="/article" title="Смотреть статью">Читать дальше...</a>
+		</article>
+	</div>
+	<div class="clear">
+	<div id="mainsocialblock">
+	  <center>
+		<div id="mainsocialblockin">
+			<a href="reg.html" title="Регистрируйтесь">
+			<h3>Регистрируйтесь на сайте</h3>
+			<p>Только у нас бла бла бла...</p>
+		</div>	 
+	  </center>
+	</a>
+	</div>
+	</div>
+</div>
+</div>
+<footer>
+<span class="left">Все права защищены &copy; 2018</span>
+<span class="right">Соц. кнопки<img class="society" src="img/instagram.ico" alt="Instagram" title="Instagram"/></span>
+</footer>
 </body>
-</html>
+<html>
